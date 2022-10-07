@@ -1,0 +1,326 @@
+body {
+    font-size: 15pt;
+   background-color: white;
+}
+@media  screen and (max-width:1280px){
+.dip{
+  background-color: dodgerblue;
+ color: white;
+ font-family: sans-serif;
+ border-radius: 2px;
+ font-weight: bold;
+ width:65%;
+ margin: 14px auto;
+  font-size: 15px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 8px;
+ padding-right: 30px;
+ font-weight: bold;
+ position: relative;
+ left: 0px;
+}
+.dop{
+  background-color: powderblue;
+  width:68.5%;
+  
+  margin:10px auto;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-family: helvetica;
+  border-radius: 2px;
+ display: flex;
+ flex-direction: initial;
+ height:100px;
+ position: relative;
+ top:2px;
+}
+
+.dop{
+  color: cadetblue;
+}
+select:hover{
+  border-color: dodgerblue ;
+}
+select:focus{
+  border-color: dodgerblue;
+}
+.opt1:focus{
+  border-color: dodgerblue ;
+}
+input:focus{
+  border-color: dodgerblue;
+}
+.fir{
+  display: none;
+}
+.sec{
+  display:block;
+  width:40%;
+  position: relative ;
+  left:100px;
+  top: 0px;
+}
+.img3{
+  display: block;
+  width: 3%;
+  position: absolute;
+  left: 920px;
+  top:285px;
+}
+.hr{
+  box-sizing: 1px 5px black;
+  display: block;
+}
+
+
+input[type=text]{
+  width: 60%;
+  padding: 1px;
+  border-radius: 2px;
+}
+button{
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+  padding: 2px ;
+  position: absolute;
+  left: 8px;
+  top: 90px;
+  font-size: 22px;
+  
+}
+.bot{
+  display: none;
+}
+.hot{
+  width: 100%;
+  position: relative;
+  top:180px;
+}
+.scroll{
+  background-color: darkblue;
+  color:white;
+  font-size: 35px;
+  width:16%;
+  padding-left: 5px;
+  padding-top: 9px;
+  padding-bottom: 0px;
+  font-family: sans-serif;
+  position: fixed;
+  left: 89%;
+  top:60%;
+  transform: rotate(90deg);
+}
+.span{
+  font-size: 10px;
+  width: 10px;
+  color: black;
+}
+.top1{
+  padding-right: 20px;
+
+}
+.top2{
+  padding-right: 10px;
+  
+}
+.top3 {
+  padding-right: 10px;
+ 
+}
+.top4 {
+  padding-right: 20px;
+}
+.top5 {
+  padding-right: 20px;
+}
+.top6{
+  
+  padding-right: 20px;
+}
+.omg{
+  display: flex;
+ padding: 10px;
+  margin-right: 10px;
+}
+.frame{
+  width: 850px;
+  height: 1900px;
+  display: none;
+  position:relative;
+  top: 0px;
+  left: 100px;
+}
+.errorimg{
+  width:600px;
+  position:relative;
+  top:0px;
+  left:19%;
+  display :none;
+}
+}
+@media  screen and (max-width:950px) {
+  
+.fir{
+  display: block;
+  width:100%;
+  position: relative;
+  top: 00px;
+}
+.sec{
+  display:none;
+}
+.img3{
+  display:none;
+  
+}
+.hr{
+  
+  display: none;
+}
+.dip{
+ background-color: dodgerblue;
+ color: white;
+ width:62.5%;
+ font-size: 15px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 30px;
+ font-weight: bold;
+ position: absolute;
+ left: 55px;
+ top: 300px;
+ font-family: sans-serif;
+ border-radius: 2px;
+ margin: 2px auto;
+}
+.dip{
+  position: relative;
+  top:100px;
+  left:0px;
+}
+.dop{
+  background-color: powderblue;
+  width:68%;
+  height: 500px;
+  position: relative;
+  left: 0px;
+  top: 100px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: helvetica;
+  border-radius: 2px
+}
+.dop{
+  color: cadetblue;
+}
+input[type=text]{
+  width: 95%;
+  padding: 3px;
+  border-radius: 2px
+}
+select{
+  width:210px;
+  padding: 5px;
+  border-radius: 2px;
+}
+button{
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+  padding: 2px ;
+  position: relative;
+  left: 115px;
+  top: 50px;
+  font-size: 22px;
+  
+}
+.bot{
+  display: block;
+  position: relative;
+  top:300px;
+  
+}
+.scroll{
+  background-color: darkblue;
+  color:white;
+  width:40%;
+  padding-left: 5px;
+  padding-top: 9px;
+  padding-bottom: 0px;
+  font-family: sans-serif;
+  position: fixed;
+  left: 286px;
+  top:500px;
+  transform: rotate(90deg);
+}
+.span{
+  font-size: 10px;
+  width: 10px;
+  color: black;
+}
+#table{
+  background-color: blue;
+  margin: 15px auto;
+  position: absolute;
+  left: 55px;
+  top:700px;
+}
+.top1{
+  position: relative;
+  left: 5%;
+  top:1%;
+}
+.top2{
+  position: relative;
+  left: 5%;
+  top:5%;
+}
+.top3 {
+  position: relative;
+  left: 5%;
+  top :10%;
+}
+.top4{
+  position: relative;
+  left: 5%;
+  top: 15%;
+}
+.top5{
+  position: relative;
+  left: 5%;
+  top :25%;
+}
+.top6{
+  position: relative;
+  left:5%;
+  top:20%;
+}
+
+.hot{
+  display: none;
+}
+.omg {
+  display: inline;
+}  
+.frame{
+  width: 350px;
+  height: 1090px;
+  position:relative;
+  top: 90px;
+  left: 30px;
+}
+.errorimg{
+  width:300px;
+  position: relative;
+  top: 100px;
+  left: 30.5px;
+  display: none;
+}
+}

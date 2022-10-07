@@ -1,0 +1,289 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>STATE BOARD OF TECHNICAL EDUCATION AND TRAINING TRAINING</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+ @media print {
+
+/* Hide every other element */
+
+body {
+
+visibility: hidden;
+
+}
+
+/* Then displaying print container elements */
+.over {
+
+visibility: visible;
+
+}
+}
+
+@media screen and (max-width:1280px)
+{
+  .govt{
+    display:none; 
+  }
+  .gov{
+    display: block;
+    position: relative;
+    left: -6% ;
+    top:2px;
+    width:900px;
+  }
+   .one_butn{
+   position: relative;
+  left: 0%;
+  top: 40px;
+  font-size: 22px ;
+  padding: 5px 10px 5px 10px;
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+  
+ }
+ .two_butn{
+    position: relative;
+  left: 60%;
+  top: 40px;
+  font-size: 22px ;
+  padding: 5px 10px 5px 10px;
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+ }
+.tabu{
+   display: block;
+   position:relative;
+   top:60px;
+   left: 3;
+   width:900px;
+ }
+ .tab{
+   display :none;
+ }
+ .grade{
+   width:60%;
+   border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px;
+   background-color:white;
+   box-shadow:  10px black;
+   height:900px;
+   position:absolute;
+   left:80px;
+   top: 20px;
+   padding:2px 2px 2px 2px;
+   overflow: hidden;
+   display:none;
+ }
+  .close{
+   padding: 5px 10px 5px 10px;
+   box-shadow: 1px 
+   1px 1px 1px;
+   position: relative;
+   left:925px;
+ }
+ .grade_img{
+   border:1px solid black;
+   
+ }
+ .info{
+   color: grey;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif ;
+ }
+ .con{
+   
+   top: 0;
+   left: 1;
+   width:100%;
+   background-color: white;
+   z-index: 3;
+ }
+ .cross{
+   width:20px;
+   position: absolute;
+   left:98%;
+   top:40px;
+ }
+ .cons{
+   
+   overflow: hidden;
+   overflow-x: scroll;
+   overflow-y: scroll;
+  width:100%;
+   height: 800px;
+ }
+ .over {
+   width: 90%;
+   overflow: hidden;
+   overflow-x: scroll;
+   overflow-y: scroll;
+ }
+}
+@media  screen and (max-width:360px){
+ .box{
+   position: relative;
+   left:30px;
+   top:10px;
+ }
+ .govt{
+   display: block;
+   width:300px;
+ }
+   .over{
+     width:80%;
+     overflow: hidden;
+     overflow-x: scroll;
+     overflow-y: scroll;
+   }
+   .abb{
+     width: 200px;
+    
+   }
+ .one_butn{
+   position: relative;
+  left: 195px;
+  top: 1px;
+  font-size: 22px ;
+  padding: 5px 10px 5px 10px;
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+  
+ }
+ .two_butn{
+    position: relative;
+  left: 110px;
+  top: 40px;
+  font-size: 22px ;
+  padding: 5px 10px 5px 10px;
+  background-color: dodgerblue;
+  border: whitesmoke;
+  border-radius: 2px;
+  color: white;
+ }
+ .grade{
+   width:100%;
+   border: 1px solid black;
+   box-shadow: 1px 1px 1px 1px;
+   background-color:white;
+   box-shadow:  10px black;
+   height:600px;
+   position:absolute;
+   left:5px;
+   top: 20px;
+   padding:2px 2px 2px 2px;
+   overflow: hidden;
+   display:none;
+ }
+ .close{
+   padding: 5px 10px 5px 10px;
+   box-shadow: 1px 
+   1px 1px 1px;
+   position: relative;
+   left:925px;
+ }
+ .grade_img{
+   border:1px solid black;
+   
+ }
+ .info{
+   color: grey;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif ;
+ }
+ .con{
+   
+   top: 0;
+   left: 1;
+   width:100%;
+   background-color: white;
+   z-index: 3;
+ }
+ .cross{
+   width:20px;
+   position: absolute;
+   left:339px;
+   top:40px;
+ }
+ .cons{
+   
+   overflow: hidden;
+   overflow-x: scroll;
+   overflow-y: scroll;
+  width:100%;
+   height: 500px;
+ }
+ .gov{
+   display: none;
+ }
+ .tabu{
+   display: none;
+ }
+ .tab{
+   display :block;
+ }
+}
+ </style>
+ <script>
+   function hide(){
+     document.getElementById('grade').style.display='none'
+   }
+   function fun(){
+     document.getElementById('grade').style.display='block'
+   }
+     
+   function fu() {
+     document.getElementById('grade').style.display = 'none'
+   
+   }
+ </script>
+</head>
+
+<body>
+  <div class="box">
+  <img srcset="govt.png" src="govt.png" alt="govt.png" class="govt">
+  <center><img srcset="" src="gov.png" alt="gov.png" class="gov"></center>
+  <button class="one_butn" id="onebut" onclick="fun()">Grade info  <i style="font-size:24px" class="fa">&#xf05a;</i></button>
+  <button class="two_butn" onclick="window.print(); return false;">Print <i style="font-size:24px; color: white;" class="fa">&#xf02f;</i></button>
+  <br><br><br><br>
+  <div class="over" id="over">
+    <img src="tab.jpg" alt="tab.png" class="tab">
+    <img src="tabu.png" alt="tabu.png" class="tabu">
+  </div>
+  </div>
+  <br>
+  <div>
+  <img src="abb.png" alt="abb.png" class="abb">
+ </div>
+ <div class="grade" id="grade">
+   <div class="con">
+   <p class="info"><i style="font-size:24px; color:grey;" class="fa">&#xf05a;</i>  Grade Info</p>
+ <img src="cross.jpg" alt="cross.jpg" onclick="fu()" class="cross">
+ <hr width="260%">
+ </div><div class="cons">
+   <img src="grade.jpg" alt="grade.png" class="grade_img">
+   <br>
+   <button type="button" id="close" class="close" onclick="hide()">close</button>
+   </div>
+ </div>
+  </body>
+  
+</html>
+
